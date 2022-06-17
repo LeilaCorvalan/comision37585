@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/estilos.css">
+    <!--Font awesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <title>Contacto</title>
+</head>
+
+<body>
+
+
+    <section class="sticky">
+        <div id="logo">Las Primas</div>
+        <nav class="nav">
+            <a href="../index.html">INICIO</a>
+            <a href="./productos.html">PRODUCTOS</a>
+            <a href="./nosotros.html">NOSOTROS</a>
+            <a href="./promociones.html">PROMOCIONES</a>
+            <a href="./ubicacion.html">UBICACION</a>
+            <a href="#">CONTACTO</a>
+        </nav>
+    </section>
+
+    <section class="contacto-container ">
+
+        <form action="#">
+            <h1 class="contacto-h1">Completa el formulario de contacto</h1>
+            <label for="">Decime tu nombre:
+                <input class="form-contacto" type="text" placeholder="Escribi tu nombre"><br>
+            </label>
+            <label for="email">Decime tu email:
+                <input class="form-contacto" type="email" placeholder="Escribi tu email" name="email"><br>
+            </label>
+            <label for="Productos a consultar"> Presupuesto:<br>
+                <textarea placeholder="Productos a consultar"></textarea>
+            </label> <br>
+            <input class="form-number" type="number" placeholder="Cantidad de productos"><br>
+            <div class="form-pago">
+                <p>Elegi un medio de pago:</p>
+                <div>Transferencia
+                    <input type="radio" name="pago" value="Tranferencia">
+                </div>
+                <div>Tarjeta
+                    <input type="radio" name="pago" value="Tarjeta">
+                </div>
+            </div>
+            <p>De donde sos?</p>
+            <select name="letra" id="letra">
+                <option value="CABA">CABA</option>
+                <option value="AMBA">AMBA</option>
+                <option value="otro">otro</option>
+            </select>
+            <div>Queres recibir mas informacion sobre nosotros?
+                <input type="checkbox" name="acepta" value="1">
+            </div>
+            <div class="botones">
+                <button class="btn-botones">Aceptar</button>
+                <button class="btn-botones">Cancelar</button>
+            </div>
+
+        </form>
+
+    </section>
+    <footer>
+        <div class="social-media">
+            <h4>Siguenos en Redes Sociales</h4>
+            <ul class="social-icons">
+                <li>
+                    <a href="www.instagram.com"> <i class="fab fa-instagram"></i> </a>
+                </li>
+                <li>
+                    <a href="www.facebook.com"> <i class="fab fa-facebook"></i> </a>
+                </li>
+
+            </ul>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
