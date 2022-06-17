@@ -73,6 +73,14 @@ nav {
     border-radius: 25px;
     margin: 10px;
 }
+.primer img{
+    transition-property: all;
+    transition-duration: 3s;
+}
+.primer img:hover {
+    transform: scale(1.05);
+
+}
 
 .primer p {
     font-size: 30px;
@@ -111,6 +119,13 @@ nav {
     height: 400px;
     border-radius: 25px;
 }
+.segunda img{
+    transition: all 3s;
+}
+.segunda img:hover{
+    transform: scale(1.05);
+
+}
 
 .segunda p {
     font-size: 30px;
@@ -136,6 +151,12 @@ nav {
 
 .video {
     margin-left: 400px;
+}
+.video{
+    transition: all 3s;
+}
+.video:hover{
+    transform: scale(1.05);
 }
 
 
@@ -189,6 +210,12 @@ nav {
 
 .nosotros-contenedor img {
     border-radius: 25px;
+}
+.nosotros-img{
+    transition: all 3s;
+}
+.nosotros-img:hover{
+    transform: scale(1.05);
 }
 
 .nosotros-div h2 {
@@ -265,6 +292,18 @@ nav {
     border-radius: 25px;
     box-shadow: 15px 5px 5px rgb(126, 123, 123);
 }
+.ubicacion-uno img:hover{
+    animation: tienda 2s;
+}
+@keyframes tienda{
+    0%{transform: rotate(-30deg);
+    }
+    25%{border-radius:50% ;
+    }
+    75%{transform:scale(1.1);
+    }
+} 
+
 
 .ubicacion-uno figcaption {
     text-align: center;
@@ -274,6 +313,12 @@ nav {
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
+}
+.ubicacion-dos img{
+    transition: all 2s;
+}
+.ubicacion-dos img:hover{
+    transform:scale(1.06);
 }
 
 .ubicacion-dos img {
